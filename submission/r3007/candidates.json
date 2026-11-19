@@ -1,0 +1,949 @@
+{
+  "candidates": [
+    {
+      "type": "instance_merge",
+      "target": "000000000139",
+      "reason": "Panoptic segment book overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000000139",
+      "reason": "Overlap iou=0.42 but detection is 'chair' while panoptic is 'dining table'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000000139",
+      "reason": "Overlap iou=0.42 but detection is 'chair' while panoptic is 'dining table'"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000000139",
+      "reason": "Same class 'book' but low iou=0.27 indicates potential bbox drift"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000000776",
+      "reason": "Panoptic segment teddy bear overlaps 3 detection boxes of same class"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000000776",
+      "reason": "Overlap iou=0.59 but detection is 'teddy bear' while panoptic is 'bed'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000000776",
+      "reason": "Overlap iou=0.59 but detection is 'teddy bear' while panoptic is 'bed'"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000000776",
+      "reason": "Same class 'teddy bear' but low iou=0.26 indicates potential bbox drift"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000000885",
+      "reason": "Same class 'person' but low iou=0.19 indicates potential bbox drift"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000001000",
+      "reason": "Panoptic segment person overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000001000",
+      "reason": "Same class 'person' but low iou=0.24 indicates potential bbox drift"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000001268",
+      "reason": "Overlap iou=0.42 but detection is 'person' while panoptic is 'handbag'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000001268",
+      "reason": "Overlap iou=0.42 but detection is 'person' while panoptic is 'handbag'"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000001353",
+      "reason": "Same class 'person' but low iou=0.17 indicates potential bbox drift"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000001584",
+      "reason": "Same class 'person' but low iou=0.17 indicates potential bbox drift"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000002153",
+      "reason": "Panoptic segment person overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000002153",
+      "reason": "Same class 'person' but low iou=0.23 indicates potential bbox drift"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000002157",
+      "reason": "Panoptic segment wine glass overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000002157",
+      "reason": "Same class 'wine glass' but low iou=0.30 indicates potential bbox drift"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000002299",
+      "reason": "Panoptic segment person overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000002299",
+      "reason": "Same class 'person' but low iou=0.33 indicates potential bbox drift"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000002587",
+      "reason": "Overlap iou=0.44 but detection is 'banana' while panoptic is 'donut'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000002587",
+      "reason": "Overlap iou=0.44 but detection is 'banana' while panoptic is 'donut'"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000002685",
+      "reason": "Panoptic segment person overlaps 4 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000002685",
+      "reason": "Same class 'bottle' but low iou=0.31 indicates potential bbox drift"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000003255",
+      "reason": "Panoptic segment person overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000003255",
+      "reason": "Same class 'person' but low iou=0.31 indicates potential bbox drift"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000003845",
+      "reason": "Overlap iou=0.83 but detection is 'fork' while panoptic is 'spoon'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000003845",
+      "reason": "Overlap iou=0.83 but detection is 'fork' while panoptic is 'spoon'"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000004134",
+      "reason": "Panoptic segment person overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000004134",
+      "reason": "Same class 'person' but low iou=0.16 indicates potential bbox drift"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000004795",
+      "reason": "Overlap iou=0.35 but detection is 'cat' while panoptic is 'tv'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000004795",
+      "reason": "Overlap iou=0.35 but detection is 'cat' while panoptic is 'tv'"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000005001",
+      "reason": "Panoptic segment person overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000005001",
+      "reason": "Same class 'person' but low iou=0.32 indicates potential bbox drift"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000005037",
+      "reason": "Same class 'car' but low iou=0.16 indicates potential bbox drift"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000005193",
+      "reason": "Panoptic segment person overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000005193",
+      "reason": "Same class 'person' but low iou=0.28 indicates potential bbox drift"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000005193",
+      "reason": "Overlap iou=0.42 but detection is 'person' while panoptic is 'surfboard'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000005193",
+      "reason": "Overlap iou=0.42 but detection is 'person' while panoptic is 'surfboard'"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000005529",
+      "reason": "Panoptic segment skis overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000005992",
+      "reason": "Panoptic segment sheep overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000005992",
+      "reason": "Same class 'sheep' but low iou=0.19 indicates potential bbox drift"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000006040",
+      "reason": "Panoptic segment person overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000006040",
+      "reason": "Same class 'person' but low iou=0.27 indicates potential bbox drift"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000006471",
+      "reason": "Same class 'person' but low iou=0.15 indicates potential bbox drift"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000006723",
+      "reason": "Overlap iou=0.91 but detection is 'truck' while panoptic is 'bus'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000006723",
+      "reason": "Overlap iou=0.91 but detection is 'truck' while panoptic is 'bus'"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000006763",
+      "reason": "Panoptic segment person overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000006771",
+      "reason": "Panoptic segment person overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000006771",
+      "reason": "Same class 'person' but low iou=0.25 indicates potential bbox drift"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000006894",
+      "reason": "Overlap iou=0.49 but detection is 'person' while panoptic is 'elephant'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000006894",
+      "reason": "Overlap iou=0.49 but detection is 'person' while panoptic is 'elephant'"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000006954",
+      "reason": "Panoptic segment person overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000006954",
+      "reason": "Same class 'person' but low iou=0.26 indicates potential bbox drift"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000007108",
+      "reason": "Same class 'elephant' but low iou=0.23 indicates potential bbox drift"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000007281",
+      "reason": "Overlap iou=0.44 but detection is 'horse' while panoptic is 'person'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000007281",
+      "reason": "Overlap iou=0.44 but detection is 'horse' while panoptic is 'person'"
+    },
+    {
+      "type": "missing_box",
+      "target": "000000007511",
+      "reason": "Panoptic thing person (area=14530) has no matching detection box (best iou=0.00)"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000007574",
+      "reason": "Same class 'bottle' but low iou=0.16 indicates potential bbox drift"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000007795",
+      "reason": "Same class 'bed' but low iou=0.33 indicates potential bbox drift"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000007816",
+      "reason": "Overlap iou=0.38 but detection is 'motorcycle' while panoptic is 'person'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000007816",
+      "reason": "Overlap iou=0.38 but detection is 'motorcycle' while panoptic is 'person'"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000007816",
+      "reason": "Same class 'person' but low iou=0.25 indicates potential bbox drift"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000008211",
+      "reason": "Overlap iou=0.36 but detection is 'chair' while panoptic is 'person'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000008211",
+      "reason": "Overlap iou=0.36 but detection is 'chair' while panoptic is 'person'"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000008277",
+      "reason": "Panoptic segment bowl overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000008277",
+      "reason": "Same class 'broccoli' but low iou=0.21 indicates potential bbox drift"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000008690",
+      "reason": "Same class 'person' but low iou=0.16 indicates potential bbox drift"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000009378",
+      "reason": "Same class 'person' but low iou=0.22 indicates potential bbox drift"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000009400",
+      "reason": "Panoptic segment cup overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000009400",
+      "reason": "Same class 'person' but low iou=0.18 indicates potential bbox drift"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000009483",
+      "reason": "Overlap iou=0.99 but detection is 'laptop' while panoptic is 'tv'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000009483",
+      "reason": "Overlap iou=0.99 but detection is 'laptop' while panoptic is 'tv'"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000009590",
+      "reason": "Overlap iou=0.92 but detection is 'cup' while panoptic is 'bowl'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000009590",
+      "reason": "Overlap iou=0.92 but detection is 'cup' while panoptic is 'bowl'"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000009891",
+      "reason": "Overlap iou=0.38 but detection is 'backpack' while panoptic is 'suitcase'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000009891",
+      "reason": "Overlap iou=0.38 but detection is 'backpack' while panoptic is 'suitcase'"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000009914",
+      "reason": "Overlap iou=0.81 but detection is 'hot dog' while panoptic is 'sandwich'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000009914",
+      "reason": "Overlap iou=0.81 but detection is 'hot dog' while panoptic is 'sandwich'"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000010092",
+      "reason": "Overlap iou=0.60 but detection is 'dining table' while panoptic is 'chair'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000010092",
+      "reason": "Overlap iou=0.60 but detection is 'dining table' while panoptic is 'chair'"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000010583",
+      "reason": "Overlap iou=0.35 but detection is 'dining table' while panoptic is 'sandwich'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000010583",
+      "reason": "Overlap iou=0.35 but detection is 'dining table' while panoptic is 'sandwich'"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000010707",
+      "reason": "Same class 'person' but low iou=0.18 indicates potential bbox drift"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000011051",
+      "reason": "Same class 'person' but low iou=0.21 indicates potential bbox drift"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000011197",
+      "reason": "Overlap iou=0.36 but detection is 'bicycle' while panoptic is 'person'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000011197",
+      "reason": "Overlap iou=0.36 but detection is 'bicycle' while panoptic is 'person'"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000011511",
+      "reason": "Panoptic segment person overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000011511",
+      "reason": "Same class 'person' but low iou=0.27 indicates potential bbox drift"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000012576",
+      "reason": "Overlap iou=0.43 but detection is 'pizza' while panoptic is 'dining table'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000012576",
+      "reason": "Overlap iou=0.43 but detection is 'pizza' while panoptic is 'dining table'"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000012639",
+      "reason": "Panoptic segment person overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000012639",
+      "reason": "Same class 'person' but low iou=0.18 indicates potential bbox drift"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000012670",
+      "reason": "Panoptic segment person overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000012670",
+      "reason": "Same class 'person' but low iou=0.26 indicates potential bbox drift"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000012670",
+      "reason": "Overlap iou=0.38 but detection is 'person' while panoptic is 'handbag'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000012670",
+      "reason": "Overlap iou=0.38 but detection is 'person' while panoptic is 'handbag'"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000013004",
+      "reason": "Overlap iou=0.36 but detection is 'banana' while panoptic is 'dining table'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000013004",
+      "reason": "Overlap iou=0.36 but detection is 'banana' while panoptic is 'dining table'"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000013291",
+      "reason": "Same class 'frisbee' but low iou=0.18 indicates potential bbox drift"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000013291",
+      "reason": "Overlap iou=0.36 but detection is 'person' while panoptic is 'frisbee'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000013291",
+      "reason": "Overlap iou=0.36 but detection is 'person' while panoptic is 'frisbee'"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000013597",
+      "reason": "Overlap iou=0.67 but detection is 'cake' while panoptic is 'dining table'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000013597",
+      "reason": "Overlap iou=0.67 but detection is 'cake' while panoptic is 'dining table'"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000013659",
+      "reason": "Overlap iou=0.43 but detection is 'person' while panoptic is 'laptop'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000013659",
+      "reason": "Overlap iou=0.43 but detection is 'person' while panoptic is 'laptop'"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000013659",
+      "reason": "Same class 'laptop' but low iou=0.27 indicates potential bbox drift"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000013729",
+      "reason": "Panoptic segment person overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000013729",
+      "reason": "Same class 'person' but low iou=0.27 indicates potential bbox drift"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000013923",
+      "reason": "Panoptic segment chair overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000013923",
+      "reason": "Same class 'chair' but low iou=0.29 indicates potential bbox drift"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000014038",
+      "reason": "Panoptic segment book overlaps 3 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000014038",
+      "reason": "Same class 'book' but low iou=0.18 indicates potential bbox drift"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000014439",
+      "reason": "Same class 'person' but low iou=0.16 indicates potential bbox drift"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000015079",
+      "reason": "Same class 'sandwich' but low iou=0.18 indicates potential bbox drift"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000015254",
+      "reason": "Panoptic segment carrot overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000015254",
+      "reason": "Same class 'carrot' but low iou=0.27 indicates potential bbox drift"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000015335",
+      "reason": "Same class 'person' but low iou=0.22 indicates potential bbox drift"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000015497",
+      "reason": "Overlap iou=0.64 but detection is 'cat' while panoptic is 'couch'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000015497",
+      "reason": "Overlap iou=0.64 but detection is 'cat' while panoptic is 'couch'"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000015517",
+      "reason": "Panoptic segment bus overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000015517",
+      "reason": "Same class 'bus' but low iou=0.30 indicates potential bbox drift"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000015751",
+      "reason": "Same class 'bird' but low iou=0.15 indicates potential bbox drift"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000016010",
+      "reason": "Same class 'zebra' but low iou=0.17 indicates potential bbox drift"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000016228",
+      "reason": "Panoptic segment person overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000016228",
+      "reason": "Same class 'person' but low iou=0.30 indicates potential bbox drift"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000016249",
+      "reason": "Overlap iou=0.53 but detection is 'person' while panoptic is 'bench'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000016249",
+      "reason": "Overlap iou=0.53 but detection is 'person' while panoptic is 'bench'"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000016249",
+      "reason": "Same class 'person' but low iou=0.15 indicates potential bbox drift"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000016451",
+      "reason": "Same class 'handbag' but low iou=0.25 indicates potential bbox drift"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000016451",
+      "reason": "Overlap iou=0.60 but detection is 'handbag' while panoptic is 'backpack'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000016451",
+      "reason": "Overlap iou=0.60 but detection is 'handbag' while panoptic is 'backpack'"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000017182",
+      "reason": "Panoptic segment book overlaps 3 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000017182",
+      "reason": "Same class 'book' but low iou=0.28 indicates potential bbox drift"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000017207",
+      "reason": "Overlap iou=0.48 but detection is 'person' while panoptic is 'motorcycle'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000017207",
+      "reason": "Overlap iou=0.48 but detection is 'person' while panoptic is 'motorcycle'"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000017436",
+      "reason": "Overlap iou=0.35 but detection is 'person' while panoptic is 'bench'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000017436",
+      "reason": "Overlap iou=0.35 but detection is 'person' while panoptic is 'bench'"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000017627",
+      "reason": "Same class 'car' but low iou=0.19 indicates potential bbox drift"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000017714",
+      "reason": "Same class 'fork' but low iou=0.20 indicates potential bbox drift"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000017714",
+      "reason": "Overlap iou=0.35 but detection is 'knife' while panoptic is 'fork'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000017714",
+      "reason": "Overlap iou=0.35 but detection is 'knife' while panoptic is 'fork'"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000017959",
+      "reason": "Panoptic segment kite overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000017959",
+      "reason": "Same class 'person' but low iou=0.17 indicates potential bbox drift"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000018193",
+      "reason": "Overlap iou=0.57 but detection is 'chair' while panoptic is 'person'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000018193",
+      "reason": "Overlap iou=0.57 but detection is 'chair' while panoptic is 'person'"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000018380",
+      "reason": "Panoptic segment person overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000018380",
+      "reason": "Overlap iou=0.87 but detection is 'fork' while panoptic is 'spoon'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000018380",
+      "reason": "Overlap iou=0.87 but detection is 'fork' while panoptic is 'spoon'"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000018380",
+      "reason": "Same class 'person' but low iou=0.33 indicates potential bbox drift"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000018491",
+      "reason": "Panoptic segment person overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000019109",
+      "reason": "Panoptic segment motorcycle overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000019109",
+      "reason": "Same class 'motorcycle' but low iou=0.16 indicates potential bbox drift"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000019402",
+      "reason": "Same class 'person' but low iou=0.21 indicates potential bbox drift"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000019742",
+      "reason": "Overlap iou=0.99 but detection is 'vase' while panoptic is 'baseball bat'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000019742",
+      "reason": "Overlap iou=0.99 but detection is 'vase' while panoptic is 'baseball bat'"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000019786",
+      "reason": "Overlap iou=0.43 but detection is 'couch' while panoptic is 'person'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000019786",
+      "reason": "Overlap iou=0.43 but detection is 'couch' while panoptic is 'person'"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000019786",
+      "reason": "Same class 'person' but low iou=0.15 indicates potential bbox drift"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000020553",
+      "reason": "Overlap iou=0.77 but detection is 'bottle' while panoptic is 'vase'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000020553",
+      "reason": "Overlap iou=0.77 but detection is 'bottle' while panoptic is 'vase'"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000020571",
+      "reason": "Same class 'person' but low iou=0.17 indicates potential bbox drift"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000020571",
+      "reason": "Overlap iou=0.43 but detection is 'handbag' while panoptic is 'person'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000020571",
+      "reason": "Overlap iou=0.43 but detection is 'handbag' while panoptic is 'person'"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000021839",
+      "reason": "Same class 'person' but low iou=0.15 indicates potential bbox drift"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000022705",
+      "reason": "Overlap iou=0.72 but detection is 'refrigerator' while panoptic is 'person'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000022705",
+      "reason": "Overlap iou=0.72 but detection is 'refrigerator' while panoptic is 'person'"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000022892",
+      "reason": "Overlap iou=0.65 but detection is 'cat' while panoptic is 'chair'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000022892",
+      "reason": "Overlap iou=0.65 but detection is 'cat' while panoptic is 'chair'"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000023272",
+      "reason": "Overlap iou=1.00 but detection is 'bus' while panoptic is 'car'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000023272",
+      "reason": "Overlap iou=1.00 but detection is 'bus' while panoptic is 'car'"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000023781",
+      "reason": "Same class 'carrot' but low iou=0.17 indicates potential bbox drift"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000023781",
+      "reason": "Overlap iou=0.99 but detection is 'carrot' while panoptic is 'motorcycle'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000023781",
+      "reason": "Overlap iou=0.99 but detection is 'carrot' while panoptic is 'motorcycle'"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000023899",
+      "reason": "Same class 'person' but low iou=0.16 indicates potential bbox drift"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000023899",
+      "reason": "Overlap iou=0.40 but detection is 'person' while panoptic is 'couch'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000023899",
+      "reason": "Overlap iou=0.40 but detection is 'person' while panoptic is 'couch'"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000023937",
+      "reason": "Panoptic segment cow overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "class_swap",
+      "target": "000000023937",
+      "reason": "Overlap iou=0.57 but detection is 'sheep' while panoptic is 'cow'"
+    },
+    {
+      "type": "category_swap",
+      "target": "000000023937",
+      "reason": "Overlap iou=0.57 but detection is 'sheep' while panoptic is 'cow'"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000024021",
+      "reason": "Panoptic segment person overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000024021",
+      "reason": "Same class 'person' but low iou=0.16 indicates potential bbox drift"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000024243",
+      "reason": "Panoptic segment cup overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000025181",
+      "reason": "Same class 'person' but low iou=0.17 indicates potential bbox drift"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000025386",
+      "reason": "Panoptic segment person overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000025386",
+      "reason": "Same class 'person' but low iou=0.26 indicates potential bbox drift"
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000025393",
+      "reason": "Panoptic segment car overlaps 2 detection boxes of same class"
+    },
+    {
+      "type": "bbox_drift",
+      "target": "000000025393",
+      "reason": "Same class 'car' but low iou=0.32 indicates potential bbox drift"
+    }
+  ]
+}
